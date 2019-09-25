@@ -21,3 +21,4 @@ app.listen({ port: process.env.PORT }, () => console.log("running"));
 var list = ["Test", "Test1", "test2"];
 var tmp = list.findIndex(x => x== "test2");
 var tmp2 = list.find(x => x == "Test1");
+var Tmp3 = lsit[tmp] + tmp2;
